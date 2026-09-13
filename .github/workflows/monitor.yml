@@ -23,7 +23,7 @@ jobs:
 
       - name: Install Python packages
         run: |
-          pip install requests beautifulsoup4
+          pip install requests beautifulsoup4 pypdf
 
       - name: Check Pelosi PTR filings
         env:
